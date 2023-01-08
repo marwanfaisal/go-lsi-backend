@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "a875461a-5165-4200-81ec-cf145c7f403c",
+		"name": "LSI Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5022155"
+	},
+	"item": [
+		{
+			"name": "Sync Products (Source & Destination Products)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v1/product/sync",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v1",
+						"product",
+						"sync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Source List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v1/product/source",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v1",
+						"product",
+						"source"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Destination List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v1/product/destination",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v1",
+						"product",
+						"destination"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
