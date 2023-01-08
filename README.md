@@ -1,8 +1,9 @@
 # go-lsi-backend
 
 ### Run App ###
-- sudo chmod -R 777 dbdata
-- go mod tidy <!-- (if needed) -->
+- sudo unzip dbdata.zip (if dbdata doesn't exist)
+- sudo chmod -R 777 dbdata (if needed)
+- go mod tidy (if needed)
 - sudo docker-compose up -d
 
 ### Stop App ###
