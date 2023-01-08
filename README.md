@@ -1,7 +1,7 @@
 # go-lsi-backend
 
 ### Run App ###
-- sudo chmod -R 755 .dbdata
+- sudo chmod -R 777 dbdata
 - go mod tidy <!-- (if needed) -->
 - sudo docker-compose up -d
 
